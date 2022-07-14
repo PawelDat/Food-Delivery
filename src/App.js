@@ -1,10 +1,9 @@
 import React from "react";
-import './scss/main.css'
+import Layout from "./components/Layout";
+import "./scss/main.css";
 function App() {
   return (
-    <div className="App">
-      <p className="a">cos</p>
-    </div>
+    <Layout/>
   );
 }
 
