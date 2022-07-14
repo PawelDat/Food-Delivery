@@ -13,7 +13,7 @@ const Home = () => {
               <div className="scooter__content">
                 <h5 className="mb-3">Easy way to make an order.</h5>
                 <h1 className="mb-4 scooter__title">
-                  <span>Hungry?</span>Just wait, <span> food at </span> 
+                  <span>Hungry?</span>Just wait,  food at
                    <span> your </span>door<span> in the</span> blink  <span>of the</span> eye!
                 </h1>
                 <p>

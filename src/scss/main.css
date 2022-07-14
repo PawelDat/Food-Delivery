@@ -330,6 +330,7 @@ a {
 .scooter__title {
   font-size: 2.5rem;
   line-height: 55px;
+  width: 425px;
 }
 .scooter__title span {
   color: #df2020;
