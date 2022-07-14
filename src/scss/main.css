@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -110,9 +112,67 @@ q {
   quotes: "" "";
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 .header {
   width: 100%;
-  height: 80px;
+  height: 100px;
   line-height: 80px;
 }
 .header .logo {
@@ -236,4 +296,98 @@ q {
     height: 80px;
     line-height: 80px;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.scooter__title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+.scooter__title span {
+  color: #df2020;
+}
+
+.scooter__content {
+  padding-top: 70px;
+}
+.scooter__content p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #777;
+}
+
+.scooter__btns button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.order__btn {
+  background: #df2020;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.order__btn:hover {
+  background-color: #333;
+}
+
+.all__foods-btn {
+  background: transparent;
+  border: 1px solid #df2020 !important;
+}
+.all__foods-btn a {
+  text-decoration: none;
+  color: #df2020;
+}
+.all__foods-btn a:hover {
+  color: #df2020;
+}
+
+.scooter__service p {
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.shipping__icon i, .check__icon i {
+  padding: 5px;
+  background: #df2020;
+  color: #FFFFFF;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+.main__picture {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
