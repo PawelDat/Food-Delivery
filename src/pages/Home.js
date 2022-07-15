@@ -1,7 +1,9 @@
 import React from "react";
-import Mainview from "../components/Mainview";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import Mainview from "../components/Mainview";
+import Category from "../components/Category";
+import Delivery from "../components/Delivery";
 import scooterImg from "../assets/images/icons/scooter.png";
 const Home = () => {
   return (
@@ -13,12 +15,11 @@ const Home = () => {
               <div className="scooter__content">
                 <h5 className="mb-3">Easy way to make an order.</h5>
                 <h1 className="mb-4 scooter__title">
-                  <span>Hungry?</span>Just wait,  food at
-                   <span> your </span>door<span> in the</span> blink  <span>of the</span> eye!
+                  <span>Hungry?</span>Just wait, food at
+                  <span> your </span>door<span> in the</span> blink{" "}
+                  <span>of the</span> eye!
                 </h1>
-                <p>
-                  Order the best Food around your area with delivery.
-                </p>
+                <p>Order the best Food around your area with delivery.</p>
                 <div className="scooter__btns d-flex align-items-center gap-5 mt-4">
                   <button className="order__btn d-flex align-items-center justify-content-between">
                     Order now! <i class="ri-arrow-right-s-line"></i>
@@ -54,6 +55,12 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+      <section>
+        <Category />
+      </section>
+      <Delivery/>
+      <section>
       </section>
     </Mainview>
   );
