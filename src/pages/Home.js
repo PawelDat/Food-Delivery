@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Mainview from "../components/Mainview";
 import Category from "../components/Category";
 import Delivery from "../components/Delivery";
+import ProductBar from "../components/ProductBar.js";
 import scooterImg from "../assets/images/icons/scooter.png";
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
                 <p>Order the best Food around your area with delivery.</p>
                 <div className="scooter__btns d-flex align-items-center gap-5 mt-4">
                   <button className="order__btn d-flex align-items-center justify-content-between">
-                    Order now! <i class="ri-arrow-right-s-line"></i>
+                    Order now! <i className="ri-arrow-right-s-line"></i>
                   </button>
                   <button className="all__foods-btn">
                     <Link to="/foods">See all foods</Link>
@@ -31,13 +32,13 @@ const Home = () => {
                 <div className="scooter__service d-flex align-tems-center gap-5 mt-5">
                   <p className="d-flex align-items-center gap-2">
                     <span className="shipping__icon">
-                      <i class="ri-car-line"></i>
+                      <i className="ri-car-line"></i>
                     </span>
                     NO shipping charge
                   </p>
                   <p className="d-flex align-items-center gap-2">
                     <span className="check__icon">
-                      <i class="ri-shield-check-line"></i>
+                      <i className="ri-shield-check-line"></i>
                     </span>
                     100% secure checkout
                   </p>
@@ -59,8 +60,9 @@ const Home = () => {
       <section>
         <Category />
       </section>
-      <Delivery/>
+        <Delivery />
       <section>
+        <ProductBar />
       </section>
     </Mainview>
   );

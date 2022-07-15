@@ -42,6 +42,7 @@ const Header = () => {
                   }
                   to={item.path}
                   key={index}
+                  value={index}
                 >
                   {item.display}
                 </NavLink>
@@ -55,11 +56,11 @@ const Header = () => {
             </span>
             <span className="user">
               <Link to="/login">
-                <i class="ri-user-3-line"></i>
+                <i className="ri-user-3-line"></i>
               </Link>
             </span>
             <span className="mobile__menu" onClick={toggleMenu}>
-              <i class="ri-menu-line"></i>
+              <i className="ri-menu-line"></i>
             </span>
           </div>
         </div>

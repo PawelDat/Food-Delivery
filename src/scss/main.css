@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -515,4 +517,97 @@ a {
 
 p {
   color: #777;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.food__category {
+  background: #df2020;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+.food__category button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #FFFFFF;
+}
+.food__category button img {
+  width: 30px;
+  height: 30px;
+}
+
+.foodBtnActive {
+  background: #FFFFFF !important;
+  border-radius: 5px;
+  color: #df2020 !important;
+}
+
+.product__item {
+  border: 1px solid #fde4e4;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.product__img {
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+.product__img:hover {
+  transform: scale(1.5);
+}
+
+.product__content h5 a {
+  color: #212245;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.product__content h5 {
+  margin-bottom: 20px;
+}
+
+.product__price {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #212245;
+}
+
+.addToCart__btn {
+  border: none;
+  padding: 7px 25px;
+  background: #df2020;
+  color: #FFFFFF;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */
