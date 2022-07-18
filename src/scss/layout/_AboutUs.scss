@@ -20,3 +20,9 @@
   .choose__us-desc {
     color: #777;
   }
+
+  @media only screen and (max-width: 768px) {
+  .product__item{
+    padding-bottom: 20px;
+  }
+}

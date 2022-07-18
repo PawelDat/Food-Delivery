@@ -5,7 +5,8 @@ import Mainview from "../components/Mainview";
 import Category from "../components/Category";
 import Delivery from "../components/Delivery";
 import Aboutus from "../components/Aboutus";
-import ProductBar from "../components/ProductBar.js";
+import ProductBar from "../components/ProductBar";
+import HotProducts from "../components/HotProducts";
 import scooterImg from "../assets/images/icons/scooter.png";
 const Home = () => {
 
@@ -68,6 +69,9 @@ const Home = () => {
       </section>
       <section className="about__us">
         <Aboutus />
+      </section>
+      <section>
+        <HotProducts/>
       </section>
     </Mainview>
   );
