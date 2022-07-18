@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import ProductCard from "./ProductCard";
-import products from "../assets/images/products/Products";
-import productImg1 from "../assets/images/icons/hamburger.png";
-import productImg2 from "../assets/images/icons/pizza.png";
-import productImg3 from "../assets/images/icons/salad.png";
-import productImg4 from "../assets/images/icons/sushi.png";
-import productImg5 from "../assets/images/icons/spaghetti.png";
+import products from "../../assets/images/products/Products";
+import productImg1 from "../../assets/images/icons/hamburger.png";
+import productImg2 from "../../assets/images/icons/pizza.png";
+import productImg3 from "../../assets/images/icons/salad.png";
+import productImg4 from "../../assets/images/icons/sushi.png";
+import productImg5 from "../../assets/images/icons/spaghetti.png";
 
 const ProductBar = () => {
   const [category, setCategory] = useState("ALL");

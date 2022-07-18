@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroupItem, ListGroup } from "reactstrap";
-import location from "../assets/images/icons/location.png";
+import location from "../../assets/images/icons/location.png";
 const Aboutus = () => {
   return (
     <Container>

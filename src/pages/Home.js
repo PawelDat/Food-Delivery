@@ -2,11 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Mainview from "../components/Mainview";
-import Category from "../components/Category";
-import Delivery from "../components/Delivery";
-import Aboutus from "../components/Aboutus";
-import ProductBar from "../components/ProductBar";
-import HotProducts from "../components/HotProducts";
+import Category from "../components/HomePage/Category";
+import Delivery from "../components/HomePage/Delivery";
+import Aboutus from "../components/HomePage/Aboutus";
+import ProductBar from "../components/HomePage/ProductBar";
+import HotProducts from "../components/HomePage/HotProducts";
+import Review from "../components/HomePage/Review"
 import scooterImg from "../assets/images/icons/scooter.png";
 const Home = () => {
 
@@ -72,6 +73,9 @@ const Home = () => {
       </section>
       <section>
         <HotProducts/>
+      </section>
+      <section>
+        <Review />
       </section>
     </Mainview>
   );

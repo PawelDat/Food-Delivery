@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from "reactstrap";
-import serviceImg01 from '../assets/images/icons/service-01.png'
-import serviceImg02 from '../assets/images/icons/service-02.png'
-import serviceImg03 from '../assets/images/icons/service-03.png'
+import serviceImg01 from '../../assets/images/icons/service-01.png'
+import serviceImg02 from '../../assets/images/icons/service-02.png'
+import serviceImg03 from '../../assets/images/icons/service-03.png'
 
 const featureData = [
   {

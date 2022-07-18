@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import products from "../assets/images/products/Products";
-import ProductCard from "./ProductCard";
+import products from "../../assets/images/products/Products";
+import ProductCard from "../HomePage/ProductCard";
 
 const HotProducts = () => {
   const [hotProduct, setHotProduct] = useState([]);
