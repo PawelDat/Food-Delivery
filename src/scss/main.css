@@ -199,7 +199,7 @@ a {
 }
 .header .menu a {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #000000;
   text-decoration: none;
   transition: 0.3s;
@@ -213,7 +213,7 @@ a {
 .header .cart__icon i,
 .header .user i,
 .header .mobile__menu i {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #000000;
   text-decoration: none;
   cursor: pointer;
@@ -549,7 +549,7 @@ a {
 }
 
 .food__category {
-  background: #df2020;
+  background: #c15050;
   text-align: center;
   margin-top: 30px;
   padding: 20px 0px;
@@ -568,9 +568,9 @@ a {
 }
 
 .foodBtnActive {
-  background: #FFFFFF !important;
+  background: #fde4e4 !important;
   border-radius: 5px;
-  color: #df2020 !important;
+  color: #000000 !important;
 }
 
 .product__item {
@@ -607,7 +607,7 @@ a {
 .addToCart__btn {
   border: none;
   padding: 7px 25px;
-  background: #df2020;
+  background: #c15050;
   color: #FFFFFF;
   border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */

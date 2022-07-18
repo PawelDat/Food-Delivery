@@ -1,7 +1,8 @@
 @import "../settings/variables";
 
 .food__category {
-  background: $color-red;
+  background: 
+  #c15050;
   text-align: center;
   margin-top: 30px;
   padding: 20px 0px;
@@ -19,9 +20,9 @@
   }
 }
 .foodBtnActive {
-    background: $color-white !important ;
+    background: $color-light-red !important ;
     border-radius: 5px;
-    color: $color-red  !important;
+    color: $color-black  !important;
   }
 
 .product__item{
@@ -57,7 +58,7 @@
 .addToCart__btn{
   border: none;
   padding: 7px 25px;
-  background: $color-red;
+  background: #c15050;
   color: $color-white;
   border-radius: 5px;
 }

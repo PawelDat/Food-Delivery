@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import hamburgerIcon from "../assets/images/icons/hamburger.png";
 import pizzaIcon from "../assets/images/icons/pizza.png";
-import asianIcon from "../assets/images/icons/ramen.png";
-import kebabIcon from "../assets/images/icons/kebab.png";
+import saladIcon from "../assets/images/icons/salad.png";
 import sushiIcon from "../assets/images/icons/sushi.png";
+import pastaIcon from "../assets/images/icons/spaghetti.png";
 
 const categoryData = [
   {
@@ -16,17 +16,18 @@ const categoryData = [
     imgUrl: pizzaIcon,
   },
   {
-    display: "Kebab",
-    imgUrl: kebabIcon,
+    display: "Pasta",
+    imgUrl: pastaIcon,
   },
   {
-    display: "Asian Food",
-    imgUrl: asianIcon,
+    display: "Salads",
+    imgUrl: saladIcon,
   },
   {
     display: "Sushi",
     imgUrl: sushiIcon,
   },
+  
 ];
 
 const Category = () => {
