@@ -1,0 +1,22 @@
+.food__delivery-title span {
+    color: #df2020;
+  }
+  
+  .food__delivery-desc {
+    color: #777;
+    line-height: 28px;
+  }
+  
+  .choose__us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    & i {
+        font-weight: 500 !important;
+        color: #df2020;
+      }
+  }
+
+  
+  .choose__us-desc {
+    color: #777;
+  }
