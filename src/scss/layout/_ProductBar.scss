@@ -1,18 +1,21 @@
 @import "../settings/variables";
 
 .food__category {
-  background: 
-  #c15050;
+  background: #c15050;
   text-align: center;
   margin-top: 30px;
   padding: 20px 0px;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   & button {
     border: none;
     outline: none;
     padding: 7px 20px;
     background: transparent;
-    color:$color-white;
+    color: $color-white;
   }
   & button img {
     width: 30px;
@@ -20,45 +23,79 @@
   }
 }
 .foodBtnActive {
-    background: $color-light-red !important ;
-    border-radius: 5px;
-    color: $color-black  !important;
-  }
+  background: $color-light-red !important ;
+  border-radius: 5px;
+  color: $color-black !important;
+}
 
-.product__item{
+.product__item {
   border: 1px solid $color-light-red;
   text-align: center;
   padding: 30px;
   cursor: pointer;
 }
 
-.product__img{
+.product__img {
   margin-bottom: 20px;
   transition: 0.4s;
-  &:hover{
+  &:hover {
     transform: scale(1.5);
   }
 }
 
-.product__content h5 a{
+.product__content h5 a {
   color: $color-light-black;
   margin-bottom: 20px;
   text-decoration: none;
 }
-.product__content h5{
+.product__content h5 {
   margin-bottom: 20px;
 }
 
-.product__price{
+.product__price {
   font-weight: 600;
   font-size: 1.3rem;
   color: $color-light-black;
 }
 
-.addToCart__btn{
+.addToCart__btn {
   border: none;
   padding: 7px 25px;
   background: #c15050;
   color: $color-white;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .product__content h5 a {
+    font-size: 0.8rem;
+    word-break: break-all;
+  }
+  .product__item {
+    padding: 20px;
+  }
+  .addTOCart__btn {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .product__content h5 a {
+    font-size: 0.8rem;
+    word-break: break-all;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .food__category {
+    flex-direction: column;
+    width: 150px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    button {
+      margin: 20px;
+    }
+  }
 }

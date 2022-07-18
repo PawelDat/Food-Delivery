@@ -7,6 +7,7 @@ import Delivery from "../components/Delivery";
 import ProductBar from "../components/ProductBar.js";
 import scooterImg from "../assets/images/icons/scooter.png";
 const Home = () => {
+
   return (
     <Mainview title="Home">
       <section>
@@ -15,7 +16,7 @@ const Home = () => {
             <Col lg="6" md="6">
               <div className="scooter__content">
                 <h5 className="mb-3">Easy way to make an order.</h5>
-                <h1 className="mb-4 scooter__title">
+                <h1 className=" scooter__title">
                   <span>Hungry?</span>Just wait, food at
                   <span> your </span>door<span> in the</span> blink{" "}
                   <span>of the</span> eye!

@@ -64,3 +64,26 @@
 .main__picture{
     width: 100%;
 }
+
+@media only screen and (max-width: 753px) {
+    .scooter__content{
+        text-align: center;
+    }
+    h1,h5,span{
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 981px) {
+    .main__picture{
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main__picture{
+        padding-left:0;
+    }
+}
