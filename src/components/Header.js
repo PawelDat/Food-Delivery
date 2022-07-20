@@ -39,9 +39,9 @@ const Header = () => {
       <Container>
         <div className="nav__wraper d-flex align-items-center justify-content-between">
           <div className="logo">
-          <Link to={`/home`}>{title}
-            <img src={Logo} alt="Food-Delivery-Logo" /></Link>
-            <h4>Food Delivery</h4>
+          <Link to={`/home`}>
+            <img src={Logo} alt="Food-Delivery-Logo" />
+            <h4>Food Delivery</h4></Link>
           </div>
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
             <div className="menu d-flex align-items-center gap-5">
