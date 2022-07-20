@@ -26,7 +26,7 @@ const HotProducts = () => {
     <Container>
       <Row>
         <Col lg="12" className="text-center mb-5">
-          <h2>Hot Products</h2>
+          <h2>Popular Products</h2>
         </Col>
         {hotProduct.map((item) => (
           <Col lg="3" md="4" sm="6" xs="6" key={item.id}>

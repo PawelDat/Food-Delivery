@@ -18,6 +18,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -196,7 +202,7 @@ a {
 }
 .header {
   width: 100%;
-  height: 100px;
+  height: 130px;
   line-height: 80px;
   position: -webkit-sticky;
   position: sticky;
@@ -1166,5 +1172,348 @@ a {
 @media only screen and (max-width: 576px) {
   .delete__btn {
     font-size: 1rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.food__section {
+  background-image: linear-gradient(rgba(33, 34, 69, 0.6980392157), rgba(33, 34, 69, 0.6980392157)), url("../assets/images/icons/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+}
+
+.search__widget {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search__widget input {
+  border: none;
+  width: 90%;
+}
+
+.sorting__widget select {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sorting__widget input {
+  border: none;
+}
+
+.sorting__widget input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .search__widget {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .search__widget input {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .sorting__widget select {
+    width: 100% !important;
+    font-size: 0.8rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+.paginationBttns a {
+  padding: 5px 13px;
+  background: #df2020;
+  color: #FFFFFF !important;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+}
+.paginationBttns a:hover {
+  background: #212245;
+  transform: scale(1.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.single__product-content {
+  padding-left: 50px;
+}
+
+.product__price {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin-bottom: 0;
+  color: #df2020;
+}
+
+.product__price span {
+  font-size: 2rem;
+}
+
+.category {
+  font-weight: 600;
+  color: #212245;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin-top: 10px;
+}
+
+.category span {
+  padding: 5px 10px;
+  background: #fde4e4;
+  color: #212245;
+  border-radius: 5px;
+}
+
+.addTOCart__btn {
+  border: none;
+  padding: 7px 25px;
+  background: #c15050;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.tabs {
+  border-bottom: 1px solid #fde4e4;
+}
+
+.tabs h6 {
+  cursor: pointer;
+}
+
+.tab__content {
+  padding: 30px 0px;
+}
+
+.tab__content p {
+  line-height: 30px;
+  color: #212245;
+}
+
+.tab__active {
+  color: #df2020;
+}
+
+.form {
+  width: 60%;
+  margin: auto;
+  background: #fde4e4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form__group {
+  margin-bottom: 30px;
+}
+
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  background: transparent;
+  padding: 7px 20px;
+  border: none;
+  border-bottom: 1px solid #212245;
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  outline: none;
+}
+
+.user__name {
+  font-weight: 600;
+  color: #212245;
+}
+
+.user__email {
+  font-size: 0.8rem;
+}
+
+.feedback__text {
+  color: #212245;
+}
+
+.img__item {
+  cursor: pointer;
+}
+
+.related__Product-title {
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .product__title {
+    font-size: 1.2rem;
+  }
+  .product__price,
+.product__price span {
+    font-size: 1rem;
+  }
+  .category,
+.category span {
+    font-size: 0.8rem !important;
+  }
+  .tabs {
+    margin-top: 30px;
+  }
+  .tabs h6 {
+    font-size: 0.9rem;
+  }
+  .tab__content p,
+.user__name,
+.feedback__text {
+    font-size: 0.8rem;
+  }
+  .user__email {
+    font-size: 0.7rem;
+  }
+  .form {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .form__group input::-moz-placeholder, .form__group textarea::-moz-placeholder {
+    font-size: 0.8rem;
+  }
+  .form__group input:-ms-input-placeholder, .form__group textarea:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .form__group input::placeholder,
+.form__group textarea::placeholder {
+    font-size: 0.8rem;
+  }
+  .related__Product-title {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .product__images {
+    display: flex;
+    flex-direction: row;
+  }
+  .product__main-img {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

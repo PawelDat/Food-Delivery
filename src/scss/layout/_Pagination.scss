@@ -1,0 +1,33 @@
+@import "../settings/variables";
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    list-style: none;
+    margin-top: 30px;
+    transition: 0.3s;
+    & a{
+        padding: 5px 13px;
+        background: $color-red;
+        color: $color-white !important;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 5px;
+        text-decoration: none;
+      }
+      & a:hover {
+    background: $color-light-black;
+    transform: scale(1.2);
+  }
+  }
+  
+  
+  
