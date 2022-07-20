@@ -1,7 +1,7 @@
 @import "../settings/variables";
 
 .food__category {
-  background: #c15050;
+  background: $color-red-bar;
   text-align: center;
   margin-top: 30px;
   padding: 20px 0px;
@@ -61,7 +61,7 @@
 .addToCart__btn {
   border: none;
   padding: 7px 25px;
-  background: #c15050;
+  background: $color-red-bar;
   color: $color-white;
   border-radius: 5px;
 }

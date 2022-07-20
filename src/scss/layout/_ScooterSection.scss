@@ -72,6 +72,9 @@
     h1,h5,span{
         text-align: center;
     }
+    .scooter__title{
+        width: 400px;
+    }
 }
 
 
@@ -80,10 +83,16 @@
     .main__picture{
         padding-left: 90px;
     }
+    .scooter__title{
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .main__picture{
         padding-left:0;
+    }
+    .scooter__title{
+        width: 400px;
     }
 }

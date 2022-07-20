@@ -1,5 +1,7 @@
+@import "../settings/variables";
+
 .review__text {
-  color: #777;
+  color: $color-grey;
   line-height: 30px;
   margin: 40px 0px;
 }

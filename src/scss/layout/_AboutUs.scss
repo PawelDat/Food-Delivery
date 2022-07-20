@@ -1,9 +1,11 @@
+@import "../settings/variables";
+
 .food__delivery-title span {
-    color: #df2020;
+    color: $color-red;
   }
   
   .food__delivery-desc {
-    color: #777;
+    color: $color-grey;
     line-height: 28px;
   }
   
@@ -12,13 +14,13 @@
     margin-bottom: 10px;
     & i {
         font-weight: 500 !important;
-        color: #df2020;
+        color: $color-red;
       }
   }
 
   
   .choose__us-desc {
-    color: #777;
+    color: $color-grey;
   }
 
   @media only screen and (max-width: 768px) {

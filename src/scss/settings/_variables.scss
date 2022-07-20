@@ -5,6 +5,7 @@
  
  $color-red: #df2020 ;
  $color-light-red : #fde4e4 ; 
+ $color-red-bar: #c15050 ; 
  $color-green: green;
  $color-black: #000000;
  $color-light-black: #212245;
@@ -37,4 +38,10 @@ h6 {
 a {
   text-decoration: none;
   color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html{
+    width: 103%;
+  }
 }

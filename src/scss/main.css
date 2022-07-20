@@ -10,6 +10,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -147,6 +153,11 @@ a {
   color: unset;
 }
 
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -176,6 +187,11 @@ a {
   color: unset;
 }
 
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .header {
   width: 100%;
   height: 100px;
@@ -333,6 +349,11 @@ a {
   color: unset;
 }
 
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .scooter__title {
   font-size: 2.5rem;
   line-height: 55px;
@@ -406,15 +427,24 @@ a {
   h1, h5, span {
     text-align: center;
   }
+  .scooter__title {
+    width: 400px;
+  }
 }
 @media only screen and (max-width: 981px) {
   .main__picture {
     padding-left: 90px;
   }
+  .scooter__title {
+    width: 400px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .main__picture {
     padding-left: 0;
+  }
+  .scooter__title {
+    width: 400px;
   }
 }
 * {
@@ -446,6 +476,11 @@ a {
   color: unset;
 }
 
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .category__column {
   display: flex;
   flex-direction: column;
@@ -525,6 +560,11 @@ a {
   color: unset;
 }
 
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .feature__subtitle {
   color: #df2020;
 }
@@ -566,6 +606,11 @@ a {
   color: unset;
 }
 
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .food__category {
   background: #c15050;
   text-align: center;
@@ -668,6 +713,40 @@ a {
     padding-right: 5px;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .food__delivery-title span {
   color: #df2020;
 }
@@ -695,6 +774,40 @@ a {
     padding-bottom: 20px;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
 .review__text {
   color: #777;
   line-height: 30px;
@@ -720,5 +833,184 @@ a {
   }
   .slider__content h6 {
     font-size: 0.8rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #fde4e4;
+}
+
+.footer__logo img {
+  width: 20%;
+  margin-bottom: 5px;
+}
+
+.footer__logo h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.footer__logo p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 28px;
+}
+
+.delivery__time-item {
+  background: transparent !important;
+  line-height: 30px;
+}
+.delivery__time-item span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #212245;
+}
+.delivery__time-item p {
+  color: #212245;
+}
+
+.footer__title {
+  font-size: 1.1rem;
+  color: #212245;
+  font-weight: 600;
+}
+
+.newsletter {
+  padding: 5px;
+  border: 1px solid #212245;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+}
+.newsletter input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 80%;
+}
+.newsletter input:focus {
+  outline: none;
+}
+.newsletter span {
+  background: #df2020;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.newsletter span i {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.newsletter input::-moz-placeholder {
+  color: #212245;
+}
+.newsletter input:-ms-input-placeholder {
+  color: #212245;
+}
+.newsletter input::placeholder {
+  color: #212245;
+}
+.newsletter a {
+  text-decoration: none;
+}
+
+.social__links span i {
+  padding: 5px;
+  background: #df2020;
+  color: #FFFFFF;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.copyright__text {
+  font-size: 0.8rem;
+  color: #df2020;
+}
+
+.newsletter__input {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 992px) {
+  .newsletter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+  .newsletter span {
+    padding: 4px 20px;
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 0.8rem;
+  }
+  .delivery__time-item span {
+    font-size: 0.8rem;
+  }
+  .delivery__time-item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .copyright__text {
+    text-align: center;
+  }
+  .social__links p {
+    font-size: 0.8rem;
+  }
+  .social__links span {
+    padding: 4px;
+  }
+  .social__links span a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .newsletter span {
+    padding: 4px 30px;
+    font-size: 0.7rem;
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */

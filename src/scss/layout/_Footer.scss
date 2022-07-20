@@ -1,0 +1,148 @@
+@import "../settings/variables";
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: $color-light-red;
+}
+
+.footer__logo img {
+  width: calc(100% - 80%);
+  margin-bottom: 5px;
+}
+
+.footer__logo h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.footer__logo p {
+  font-size: 0.9rem;
+  color: $color-dark-grey;
+  line-height: 28px;
+}
+
+.delivery__time-item {
+  background: transparent !important;
+  line-height: 30px;
+  & span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: $color-light-black;
+  }
+  & p {
+    color: $color-light-black;
+  }
+}
+
+.footer__title {
+  font-size: 1.1rem;
+  color: $color-light-black;
+  font-weight: 600;
+}
+
+.newsletter {
+  padding: 5px;
+  border: 1px solid $color-light-black;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  & input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+  }
+  & input:focus {
+    outline: none;
+  }
+  & span {
+    background: $color-red;
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+  & span i {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  & input::placeholder {
+    color: $color-light-black;
+  }
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.social__links span i {
+  padding: 5px;
+  background: $color-red;
+  color: $color-white;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.copyright__text {
+  font-size: 0.8rem;
+  color: $color-red;
+}
+.newsletter__input{
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 992px) {
+  .newsletter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+  .newsletter span {
+    padding: 4px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 0.8rem;
+  }
+
+  .delivery__time-item span {
+    font-size: 0.8rem;
+  }
+
+  .delivery__time-item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .copyright__text {
+    text-align: center;
+  }
+
+  .social__links p {
+    font-size: 0.8rem;
+  }
+
+  .social__links span {
+    padding: 4px;
+  }
+  .social__links span a {
+    font-size: 0.7rem;
+  }
+  .footer {
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  .newsletter span {
+    padding: 4px 30px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
