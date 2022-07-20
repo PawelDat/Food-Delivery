@@ -16,6 +16,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -196,6 +198,10 @@ a {
   width: 100%;
   height: 100px;
   line-height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #FFFFFF;
+  top: 0px;
 }
 .header .logo {
   margin-top: 10px;
@@ -258,13 +264,6 @@ a {
 .header .mobile__menu {
   font-weight: 600;
   display: none;
-}
-.header .header__shrink {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 0;
-  box-shadow: 5px 5px 15px -5px #FFFFFF;
 }
 @media only screen and (max-width: 992px) {
   .header .navigation {
@@ -1011,6 +1010,161 @@ a {
   .newsletter span {
     padding: 4px 30px;
     font-size: 0.7rem;
-    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.cart__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.639);
+  z-index: 99999;
+}
+
+.cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  background: #FFFFFF;
+  z-index: 999999;
+}
+
+.cart__close {
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+}
+.cart__close span i {
+  font-size: 1.1rem;
+  background: #212245;
+  padding: 5px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.cart__item-list {
+  height: calc(100vh - 140px);
+  overflow-y: scroll;
+}
+
+.cart__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 20px;
+  width: 100%;
+  height: 80px;
+  background: #df2020;
+}
+.cart__bottom h6 {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.cart__bottom h6 span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.cart__bottom button {
+  border: none;
+  padding: 4px 20px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  color: #212245;
+}
+.cart__bottom button a {
+  color: #212245;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .cart {
+    width: 300px !important;
+  }
+}
+.cart__item-info img {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cart__product-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.cart__product-price {
+  font-size: 0.8rem;
+}
+
+.cart__product-price span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #df2020;
+}
+
+.increase__decrease-btn {
+  background: #fde4e4;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.increase__btn,
+.decrease__btn {
+  cursor: pointer;
+}
+
+.delete__btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.cart__item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fde4e4;
+}
+
+@media only screen and (max-width: 576px) {
+  .delete__btn {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

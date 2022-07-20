@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
-import Logo from "../assets/images/icons/logo.png";
 import { NavLink, Link } from "react-router-dom";
+import { useSelector, useDispatch }  from "react-redux";
+import Logo from "../assets/images/icons/logo.png";
+import {cartUiActions} from "../components/store/CartUi"
 
 const nav__links = [
   {
@@ -23,8 +25,15 @@ const nav__links = [
 ];
 
 const Header = () => {
-  const menuRef = useRef(null);
   const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
+  const menuRef = useRef(null);
+  const dispatch = useDispatch();
+  const totalQuantity = useSelector((state) => state.cart.totalQuantity);
+
+  const toggleCart = () => {
+    dispatch(cartUiActions.toggle());
+  };
+
   return (
     <header className="header">
       <Container>
@@ -50,9 +59,9 @@ const Header = () => {
             </div>
           </div>
           <div className="nav__right d-flex align-items-center gap-3">
-            <span className="cart__icon">
+            <span className="cart__icon" onClick={toggleCart}>
               <i class="ri-shopping-basket-2-line"></i>
-              <span className="cart__badge">3</span>
+              <span className="cart__badge">{totalQuantity}</span>
             </span>
             <span className="user">
               <Link to="/login">
