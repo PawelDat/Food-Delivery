@@ -5,6 +5,9 @@ import AllFoods from '../pages/AllFoods'
 import FoodDetails from '../pages/FoodDetails'
 import Contact from '../pages/Contact'
 import Cart from '../pages/Cart'
+import Checkout from "../pages/Checkout";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 const Routers = () => {
   return (
     <Routes>
@@ -14,6 +17,9 @@ const Routers = () => {
       <Route path="/foods" element={<AllFoods/>}/>
       <Route path="/foods/:id" element={<FoodDetails/>}/>
       <Route path="/cart" element={<Cart/>}/>
+      <Route path="/checkout" element={<Checkout/>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/register" element={<Register/>}/>
     </Routes>
   );
 };

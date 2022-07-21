@@ -24,6 +24,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -166,6 +170,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -200,6 +209,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .header {
   width: 100%;
   height: 130px;
@@ -359,6 +373,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .scooter__title {
   font-size: 2.5rem;
   line-height: 55px;
@@ -486,6 +505,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .category__column {
   display: flex;
   flex-direction: column;
@@ -570,6 +594,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .feature__subtitle {
   color: #df2020;
 }
@@ -616,6 +645,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .food__category {
   background: #c15050;
   text-align: center;
@@ -682,6 +716,9 @@ a {
   background: #c15050;
   color: #FFFFFF;
   border-radius: 5px;
+}
+.addToCart__btn:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 992px) {
@@ -752,6 +789,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .food__delivery-title span {
   color: #df2020;
 }
@@ -813,6 +855,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .review__text {
   color: #777;
   line-height: 30px;
@@ -874,6 +921,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .footer {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -1052,6 +1104,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .cart__container {
   position: fixed;
   top: 0;
@@ -1208,6 +1265,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .food__section {
   background-image: linear-gradient(rgba(33, 34, 69, 0.6980392157), rgba(33, 34, 69, 0.6980392157)), url("../assets/images/icons/banner.jpg");
   background-repeat: no-repeat;
@@ -1290,6 +1352,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .paginationBttns {
   width: 80%;
   height: 40px;
@@ -1354,6 +1421,11 @@ a {
     width: 103%;
   }
 }
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
 .single__product-content {
   padding-left: 50px;
 }
@@ -1515,5 +1587,143 @@ a {
   }
   .product__main-img {
     margin-bottom: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
+th {
+  text-align: center;
+}
+
+.cart__img-box {
+  width: 80px;
+}
+.cart__img-box img {
+  width: 100%;
+}
+.cart__img-box i {
+  cursor: pointer;
+}
+
+.ri-delete-bin-line {
+  cursor: pointer;
+}
+
+.cart__page-btn button a:hover {
+  color: #fff;
+}
+
+.cart__page-btn button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart__subtotal {
+  color: #df2020;
+  font-size: 1.5rem;
+}
+
+.addTOCart__btn {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  th,
+td {
+    font-size: 0.8rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Istok Web", sans-serif;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 401px) {
+  html {
+    width: 103%;
+  }
+}
+.form__text {
+  height: 100px;
+  word-break: break-all;
+}
+
+.checkout__bill {
+  background: #fde4e4;
+  padding: 30px;
+}
+
+.checkout__total {
+  border-top: 1px solid #777;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkout__bill h6 {
+    font-size: 0.9rem;
+  }
+  .checkout__bill {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

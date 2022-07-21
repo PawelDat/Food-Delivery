@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
-import { useSelector, useDispatch }  from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import Logo from "../assets/images/icons/logo.png";
-import {cartUiActions} from "../components/store/CartUi"
+import { cartUiActions } from "../components/store/CartUi";
 
 const nav__links = [
   {
@@ -14,13 +14,14 @@ const nav__links = [
     display: "Foods",
     path: "/foods",
   },
-  {
-    display: "Contact",
-    path: "/contact",
-  },
+
   {
     display: "Cart",
     path: "/cart",
+  },
+  {
+    display: "Contact",
+    path: "/contact",
   },
 ];
 
@@ -39,9 +40,10 @@ const Header = () => {
       <Container>
         <div className="nav__wraper d-flex align-items-center justify-content-between">
           <div className="logo">
-          <Link to={`/home`}>
-            <img src={Logo} alt="Food-Delivery-Logo" />
-            <h4>Food Delivery</h4></Link>
+            <Link to={`/home`}>
+              <img src={Logo} alt="Food-Delivery-Logo" />
+              <h4>Food Delivery</h4>
+            </Link>
           </div>
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
             <div className="menu d-flex align-items-center gap-5">

@@ -1,0 +1,42 @@
+@import "../settings/variables";
+th {
+  text-align: center;
+}
+
+.cart__img-box {
+  width: 80px;
+
+  & img {
+    width: 100%;
+  }
+  & i {
+    cursor: pointer;
+  }
+}
+
+.ri-delete-bin-line{
+    cursor: pointer;
+}
+
+.cart__page-btn button a:hover {
+  color: #fff;
+}
+.cart__page-btn button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart__subtotal {
+  color: $color-red;
+  font-size: 1.5rem;
+}
+.addTOCart__btn{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+}
