@@ -3,9 +3,8 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import logo from "../assets/images/icons/logo.png";
 
 
-import { Link } from "react-router-dom";
-
 const Footer = () => {
+  
   return (
     <footer className="footer">
       <Container>
@@ -74,9 +73,11 @@ const Footer = () => {
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">
               <p className="m-0">Follow: </p>
               <span>
-                <Link to="https://github.com/PawelDat">
+                <a href="https://github.com/PawelDat" target="_blank" rel="noreferrer">
                   <i class="ri-github-line"></i>
-                </Link>
+                  </a>
+
+               
               </span>
             </div>
           </Col>

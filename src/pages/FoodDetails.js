@@ -67,13 +67,6 @@ const FoodDetails = () => {
                 >
                   <img src={product.image02} alt="" className="w-50" />
                 </div>
-
-                <div
-                  className="img__item"
-                  onClick={() => setPreviewImg(product.image03)}
-                >
-                  <img src={product.image03} alt="" className="w-50" />
-                </div>
               </div>
             </Col>
 

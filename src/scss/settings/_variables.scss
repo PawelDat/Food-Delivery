@@ -40,13 +40,8 @@ a {
   color: unset;
 }
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 415px) {
   html{
     width: 103%;
   }
-}
-
-.form__text{
-  height: 100px;
-  word-break: break-all;
 }

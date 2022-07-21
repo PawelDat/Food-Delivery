@@ -37,6 +37,9 @@
     background: $color-red-bar;
     color: $color-white;
     border-radius: 5px;
+    &:hover{
+    transform: scale(1.1);
+    }
   }
   
   .tabs {

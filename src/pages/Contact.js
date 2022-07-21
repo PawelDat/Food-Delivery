@@ -20,7 +20,7 @@ const Contact = () => {
                   <input type="email" placeholder="Enter your email" required />
                 </div>
                 <div className="form__group">
-                  <input className="form__text" type="text" placeholder="Leave your message" required />
+                  <input className="form__text" type="text" size="50" placeholder="Leave your message" required />
                 </div>
                 <button type="submit" className="addTOCart__btn">
                 <i class="ri-send-plane-line"></i>

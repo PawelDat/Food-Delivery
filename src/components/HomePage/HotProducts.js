@@ -29,7 +29,7 @@ const HotProducts = () => {
           <h2>Popular Products</h2>
         </Col>
         {hotProduct.map((item) => (
-          <Col lg="3" md="4" sm="6" xs="6" key={item.id}>
+          <Col lg="3" md="4" sm="6" xs="6" className="mb-5" key={item.id}>
             <ProductCard item={item} />
           </Col>
         ))}
