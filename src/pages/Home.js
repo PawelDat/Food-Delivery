@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Mainview from "../components/Mainview";
-import Category from "../components/HomePage/Category";
 import Delivery from "../components/HomePage/Delivery";
 import Aboutus from "../components/HomePage/Aboutus";
 import ProductBar from "../components/HomePage/ProductBar";
 import HotProducts from "../components/HomePage/HotProducts";
-import Review from "../components/HomePage/Review"
+import Review from "../components/HomePage/Review";
 import scooterImg from "../assets/images/icons/scooter.png";
 const Home = () => {
 
+const scroll =useRef(null);
+const ScrollToSection = (elementRef) =>{
+  window.scrollTo({
+    top: elementRef.current.offsetTop,
+    behavior:"smooth"
+  })
+}
   return (
+    
+
     <Mainview title="Home">
       <section>
         <Container>
@@ -26,9 +34,10 @@ const Home = () => {
                 </h1>
                 <p>Order the best Food around your area with delivery.</p>
                 <div className="scooter__btns d-flex align-items-center gap-5 mt-4">
-                  <button className="order__btn d-flex align-items-center justify-content-between">
-                    Order now! <i className="ri-arrow-right-s-line"></i>
-                  </button>
+              
+                    <button onClick={()=> ScrollToSection(scroll)} className="order__btn d-flex align-items-center justify-content-between">
+                     Order now! <i className="ri-arrow-right-s-line"></i>
+                    </button>
                   <button className="all__foods-btn">
                     <Link to="/foods">See all foods</Link>
                   </button>
@@ -61,18 +70,16 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section>
-        <Category />
-      </section>
-        <Delivery />
-      <section>
-        <ProductBar />
+      <section></section>
+      <Delivery />
+      <section ref={scroll}>
+        <ProductBar/>
       </section>
       <section className="about__us">
         <Aboutus />
       </section>
       <section>
-        <HotProducts/>
+        <HotProducts />
       </section>
       <section>
         <Review />

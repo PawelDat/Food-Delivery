@@ -11,7 +11,6 @@ import productImg5 from "../../assets/images/icons/spaghetti.png";
 const ProductBar = () => {
   const [category, setCategory] = useState("ALL");
   const [allProducts, setAllProducts] = useState(products);
-
   useEffect(() => {
     if (category === "ALL") {
       setAllProducts(products);

@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import logo from "../assets/images/icons/logo.png";
 
-
 const Footer = () => {
-  
   return (
     <footer className="footer">
       <Container>
@@ -13,9 +11,7 @@ const Footer = () => {
             <div className=" footer__logo">
               <img src={logo} alt="logo" />
               <h5>Tasty Treat</h5>
-              <p>
-                The best food delivery Company.
-              </p>
+              <p>The best food delivery Company.</p>
             </div>
           </Col>
 
@@ -30,7 +26,6 @@ const Footer = () => {
                 <span>Friday - Sunday</span>
                 <p>14:00am - 12:00pm</p>
               </ListGroupItem>
-
             </ListGroup>
           </Col>
 
@@ -73,11 +68,14 @@ const Footer = () => {
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">
               <p className="m-0">Follow: </p>
               <span>
-                <a href="https://github.com/PawelDat" target="_blank" rel="noreferrer">
+                <a
+                  className="social__link"
+                  href="https://github.com/PawelDat"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i class="ri-github-line"></i>
-                  </a>
-
-               
+                </a>
               </span>
             </div>
           </Col>
