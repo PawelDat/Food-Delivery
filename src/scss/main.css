@@ -26,8 +26,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 html,
 body,
 div,
@@ -1191,88 +1189,6 @@ a {
 @media only screen and (max-width: 576px) {
   .delete__btn {
     font-size: 1rem;
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #FFFFFF;
-  font-family: "Istok Web", sans-serif;
-}
-
-section {
-  padding: 60px 0px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "RocknRoll One", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: unset;
-}
-
-@media only screen and (max-width: 415px) {
-  html {
-    width: 103%;
-  }
-}
-.food__section {
-  background-image: linear-gradient(rgba(33, 34, 69, 0.6980392157), rgba(33, 34, 69, 0.6980392157)), url("../assets/images/icons/banner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 80px 0px;
-}
-
-.search__widget {
-  padding: 7px 15px;
-  border: 1px solid #fde4e4;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.search__widget input {
-  border: none;
-  width: 90%;
-}
-
-.sorting__widget select {
-  padding: 7px 15px;
-  border: 1px solid #fde4e4;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.sorting__widget input {
-  border: none;
-}
-
-.sorting__widget input:focus {
-  outline: none;
-}
-
-@media only screen and (max-width: 768px) {
-  .search__widget {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .search__widget input {
-    width: 100%;
-    font-size: 0.8rem;
-  }
-  .sorting__widget select {
-    width: 100% !important;
-    font-size: 0.8rem;
   }
 }
 * {
