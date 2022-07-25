@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
 import Mainview from "../components/Mainview";
 import Delivery from "../components/HomePage/Delivery";
 import Aboutus from "../components/HomePage/Aboutus";
@@ -38,9 +37,6 @@ const ScrollToSection = (elementRef) =>{
                     <button onClick={()=> ScrollToSection(scroll)} className="order__btn d-flex align-items-center justify-content-between">
                      Order now! <i className="ri-arrow-right-s-line"></i>
                     </button>
-                  <button className="all__foods-btn">
-                    <Link to="/foods">See all foods</Link>
-                  </button>
                 </div>
                 <div className="scooter__service d-flex align-tems-center gap-5 mt-5">
                   <p className="d-flex align-items-center gap-2">
