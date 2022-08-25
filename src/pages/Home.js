@@ -66,10 +66,9 @@ const ScrollToSection = (elementRef) =>{
           </Row>
         </Container>
       </section>
-      <section></section>
-      <Delivery />
-      <section ref={scroll}>
-        <ProductBar/>
+        <Delivery />
+      <section>
+        <ProductBar />
       </section>
       <section className="about__us">
         <Aboutus />
