@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Mainview from "../components/Mainview";
-import Category from "../components/HomePage/Category";
 import Delivery from "../components/HomePage/Delivery";
 import Aboutus from "../components/HomePage/Aboutus";
 import ProductBar from "../components/HomePage/ProductBar";
@@ -62,7 +61,6 @@ const Home = () => {
         </Container>
       </section>
       <section>
-        <Category />
       </section>
         <Delivery />
       <section>
